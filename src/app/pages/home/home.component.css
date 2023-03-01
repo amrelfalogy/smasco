@@ -1,0 +1,16 @@
+header img{
+    min-width: 100%;
+}
+.about-content{
+    padding:50px 20px;
+}
+.about-content h1{
+    margin: 0px 0px 50px;
+    color: #046938;
+    font-family:'Tajawal', sans-serif;
+    font-weight: 700;
+}
+.about-content p span{
+    font-family:'Tajawal', sans-serif;
+    color: #99cc00;
+}

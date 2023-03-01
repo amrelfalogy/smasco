@@ -1,0 +1,59 @@
+video{
+    width: 100%;
+}
+.card {
+    margin-top: 2em;
+    padding: 1.5em 0.5em 0.5em;
+    border-radius: 2em;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.ratio {
+    max-width: 100%;
+    margin-bottom: 30px!important;
+    line-height: 0;
+    width: 150px;
+    height: 150px;
+    border: 1px solid lightgray;
+    display: flex;
+    border-radius: 100px;
+    margin: auto;
+    
+}
+.child_img_wrap{
+    display: block;
+    margin: auto;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+.card .card-title {
+    font-weight: 700;
+    font-size: 1.5em;
+    color: #046938;
+    font-family:'Tajawal', sans-serif;
+}
+.service-item .card:hover {
+    box-shadow: 0 8px 16px 0px #046938;
+    transform: scale(1.02);
+    transition: all 0.3s ease-in-out;
+}
+
+.card .btn {
+    border-radius: 2em ;
+    border-color: #046938;
+    background-color: transparent;
+    color: #046938;
+    padding: 0.5em 1.5em;
+}
+.card .btn:hover {
+    background-color: #046938;
+    color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.img-cover{
+    object-fit: cover;
+    object-position: center;
+}

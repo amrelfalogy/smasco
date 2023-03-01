@@ -1,0 +1,48 @@
+.col-md-5 p{
+    font-size: 17px;
+    font-family:'Tajawal', sans-serif;
+}
+.col-md-5 h1 {
+    color: #046938;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-family:'Tajawal', sans-serif;
+    font-weight: 700;
+}
+p span{
+   color:  #7eca05; 
+   font-family:'Tajawal', sans-serif;
+}
+
+.sections {
+    background-color: #c4e0a2
+}
+.card-body p{
+    font-family:'Tajawal', sans-serif;
+}
+.btn{
+    height: 40px;
+    width: 180px;
+    padding: 10px 25px;
+   color:#046938;
+   background-color:transparent;
+    font-size: 13px;
+    font-weight: 500;
+    border: 1px solid #046938;
+    border-radius: 5px;
+    font-family:'Tajawal', sans-serif;
+}
+.my-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.btn:hover{
+    height: 40px;
+    transition: all .5s ease-in-out;
+    background-color: #046938;
+    color:white ;
+    border: none;
+    transition: all .5s ease-in-out;
+}

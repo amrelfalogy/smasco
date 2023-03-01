@@ -1,0 +1,41 @@
+.navbar-expand-lg .navbar-collapse {
+    justify-content:end;
+
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #046938;
+    transition: all 0.1s ease-in-out;
+}
+
+.navbar-nav .show>.nav-link,
+.navbar-light .navbar-nav .nav-link.active {
+    color: #046938;
+}
+.navbar-nav a {
+    font-size: 20px;
+    font-family:'Tajawal', sans-serif;
+}
+
+footer {
+    background-color: #050505;
+}
+footer h6{
+    color:white;
+    margin-bottom: 20px;
+    font-family:'Tajawal', sans-serif;
+}
+
+
+footer p{
+    font-family:'Tajawal', sans-serif;
+}
+footer span{
+    color: #046938;
+}
+footer .text-center {
+    padding: 40px 0px 5px ;
+}
+footer .col-lg-12 {
+    display:flex;
+    justify-content: center;
+}
